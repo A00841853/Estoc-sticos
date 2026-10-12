@@ -1,52 +1,87 @@
 """Generador no congruencial de números pseudoaleatorios: cuadrados medios.
 
-Solicita la semilla y el número (par) de dígitos. Calcula los
-números pseudoaleatorios hasta detectar el primer estado repetido.
-
-No requiere bibliotecas externas.
+Pide una semilla y un número par de dígitos. Imprime una tabla con
+las operaciones de cada iteración y se detiene al detectar la primera
+repetición. No requiere instalar bibliotecas externas.
 """
 
 
-def generar_cuadrados_medios(semilla: int, digitos: int) -> tuple[list[float], int, int, int]:
+def generar_cuadrados_medios(
+    semilla: int, digitos: int
+) -> tuple[list[float], int, int, int]:
     """Devuelve (numeros, estado_repetido, paso_repeticion, longitud_ciclo).
 
-    Los números se normalizan a [0, 1). No se incluye en la lista
-    el número que causó la primera repetición.
+    La última fila muestra el cálculo que produjo un estado repetido,
+    pero ese valor repetido no se agrega otra vez a la lista numeros.
     """
-    if digitos < 2 or digitos % 2 != 0:
-        raise ValueError("El número de dígitos debe ser par y mayor o igual a 2.")
-    if semilla < 0 or semilla >= 10**digitos:
+    if not isinstance(digitos, int) or digitos < 2 or digitos % 2 != 0:
+        raise ValueError("El número de dígitos debe ser par y mayor o igual que 2.")
+    if not isinstance(semilla, int) or not 0 <= semilla < 10**digitos:
         raise ValueError(f"La semilla debe estar entre 0 y {10**digitos - 1}.")
 
+    encabezados = [
+        "Paso", "X_anterior", "Cuadrado", "Cuadrado_2d",
+        "Centrales", "X_nuevo", "U", "Repetido"
+    ]
+    anchos = [
+        5, max(10, digitos), max(8, 2 * digitos),
+        max(11, 2 * digitos), max(9, digitos),
+        max(7, digitos), max(7, digitos + 2), 8
+    ]
+
+    def imprimir_fila(valores):
+        print(" | ".join(
+            str(valor).rjust(ancho)
+            for valor, ancho in zip(valores, anchos)
+        ))
+
+    print(f"\nSemilla: {semilla:0{digitos}d} | Dígitos: {digitos}")
+    imprimir_fila(encabezados)
+    print("-+-".join("-" * ancho for ancho in anchos))
+
     estado = semilla
-    vistos = {semilla: 0}  # Estado -> paso en el que apareció por primera vez
+    vistos = {semilla: 0}  # El estado inicial también cuenta.
     numeros = []
     paso = 0
 
-    print(f"\nSemilla: {semilla:0{digitos}d} | Dígitos: {digitos}")
-    print(f"{'Paso':>6} | {'Estado':>{digitos}} | {'U (0 a 1)':>12}")
-    print("-" * (25 + digitos))
-
     while True:
-        # 1. Elevar el estado al cuadrado y completar con ceros.
-        cuadrado = str(estado**2).zfill(2 * digitos)
-
-        # 2. Tomar los 'digitos' del centro del cuadrado.
-        inicio = digitos // 2
-        nuevo_estado = int(cuadrado[inicio:inicio + digitos])
         paso += 1
 
-        # 3. Detenerse si ese estado ya apareció.
-        if nuevo_estado in vistos:
-            longitud_ciclo = paso - vistos[nuevo_estado]
-            return numeros, nuevo_estado, paso, longitud_ciclo
+        # 1. Elevar el estado anterior al cuadrado.
+        cuadrado = estado**2
 
-        # 4. Normalizar el estado a [0, 1) y mostrarlo.
+        # 2. Agregar ceros a la izquierda hasta tener 2*d dígitos.
+        cuadrado_2d = str(cuadrado).zfill(2 * digitos)
+
+        # 3. Extraer los d dígitos centrales.
+        inicio = digitos // 2
+        centrales = cuadrado_2d[inicio:inicio + digitos]
+        nuevo_estado = int(centrales)
+
+        # 4. Normalizar el estado a un número en [0, 1).
         u = nuevo_estado / (10**digitos)
-        numeros.append(u)
-        print(f"{paso:>6} | {nuevo_estado:0{digitos}d} | {u:>12.{digitos}f}")
 
-        # 5. Guardar el estado y continuar.
+        # 5. Detectar la primera repetición.
+        repetido = nuevo_estado in vistos
+
+        # 6. Mostrar las operaciones, incluso en la iteración repetida.
+        imprimir_fila([
+            paso,
+            f"{estado:0{digitos}d}",
+            cuadrado,
+            cuadrado_2d,
+            centrales,
+            f"{nuevo_estado:0{digitos}d}",
+            f"{u:.{digitos}f}",
+            "Sí" if repetido else "No"
+        ])
+
+        if repetido:
+            periodo = paso - vistos[nuevo_estado]
+            return numeros, nuevo_estado, paso, periodo
+
+        # 7. Guardar el nuevo estado y continuar.
+        numeros.append(u)
         vistos[nuevo_estado] = paso
         estado = nuevo_estado
 
@@ -65,6 +100,7 @@ def main() -> None:
         print(f"Estado repetido: {repetido:0{digitos}d} (paso {paso})")
         print(f"Longitud del ciclo detectado: {periodo}")
         print(f"Total de números generados antes de repetir: {len(numeros)}")
+        print("La última fila muestra el valor repetido y no se cuenta dos veces.")
         print("Números pseudoaleatorios:", numeros)
 
     except ValueError as error:
