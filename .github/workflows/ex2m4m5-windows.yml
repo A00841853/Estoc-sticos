@@ -1,0 +1,39 @@
+name: Ex2M4M5 - Windows EXE
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Ex2M4M5/**'
+      - '.github/workflows/ex2m4m5-windows.yml'
+  workflow_dispatch:
+
+jobs:
+  test-and-package:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: Ex2M4M5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Ejecutar pruebas unitarias
+        run: python -m unittest discover -v
+      - name: Generar resultados de referencia
+        run: python ejecutar_lote.py --salida salidas_ejemplo --semilla 20261019 --repeticiones 20
+      - name: Preparar PyInstaller
+        run: python -m pip install pyinstaller
+      - name: Construir ejecutable autónomo
+        run: python -m PyInstaller --noconfirm --clean --onefile --windowed --name Ex2M4M5 interfaz.py
+      - name: Publicar ejecutable y resultados de referencia
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ex2M4M5-Windows
+          path: |
+            Ex2M4M5/dist/Ex2M4M5.exe
+            Ex2M4M5/salidas_ejemplo/
+          if-no-files-found: error
