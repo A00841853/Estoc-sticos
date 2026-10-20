@@ -1,0 +1,7343 @@
+{
+  "configuracion": {
+    "trabajos_min": 20,
+    "trabajos_max": 30,
+    "maquinas_min": 3,
+    "maquinas_max": 5,
+    "tamanos": [
+      10,
+      20,
+      30
+    ],
+    "velocidades": [
+      5,
+      10,
+      15
+    ],
+    "repeticiones": 20,
+    "semilla": 20261019,
+    "fecha_inicio": "2026-10-19 08:00:00"
+  },
+  "indicadores": {
+    "repeticiones": 20,
+    "makespan_promedio_horas": 24.666666666666668,
+    "makespan_minimo_horas": 13.666666666666666,
+    "makespan_maximo_horas": 37.33333333333333,
+    "desviacion_estandar_horas": 5.703184705887902,
+    "promedio_desequilibrio_horas": 14.6
+  },
+  "simulaciones": [
+    {
+      "simulacion": 1,
+      "semilla": 5953427211452257471,
+      "numero_trabajos": 28,
+      "numero_maquinas": 5,
+      "cargas_horas": [
+        8.0,
+        18.0,
+        4.666666666666667,
+        22.333333333333332,
+        18.0
+      ],
+      "makespan_horas": 22.333333333333332,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 28,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        }
+      ]
+    },
+    {
+      "simulacion": 2,
+      "semilla": 13343988111731382587,
+      "numero_trabajos": 29,
+      "numero_maquinas": 4,
+      "cargas_horas": [
+        13.999999999999998,
+        17.333333333333332,
+        17.333333333333332,
+        20.333333333333336
+      ],
+      "makespan_horas": 20.333333333333336,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 28,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 29,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "simulacion": 3,
+      "semilla": 2218926889714483269,
+      "numero_trabajos": 22,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        15.666666666666666,
+        10.999999999999998,
+        18.666666666666668
+      ],
+      "makespan_horas": 18.666666666666668,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        }
+      ]
+    },
+    {
+      "simulacion": 4,
+      "semilla": 8671341922729726112,
+      "numero_trabajos": 28,
+      "numero_maquinas": 5,
+      "cargas_horas": [
+        15.666666666666666,
+        8.666666666666666,
+        20.0,
+        11.666666666666666,
+        12.666666666666666
+      ],
+      "makespan_horas": 20.0,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 28,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        }
+      ]
+    },
+    {
+      "simulacion": 5,
+      "semilla": 5397942117136752608,
+      "numero_trabajos": 28,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        29.333333333333332,
+        15.333333333333332,
+        25.0
+      ],
+      "makespan_horas": 29.333333333333332,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 28,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        }
+      ]
+    },
+    {
+      "simulacion": 6,
+      "semilla": 13217710254848847932,
+      "numero_trabajos": 26,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        11.333333333333332,
+        11.0,
+        26.666666666666668
+      ],
+      "makespan_horas": 26.666666666666668,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "simulacion": 7,
+      "semilla": 6433100495372853320,
+      "numero_trabajos": 27,
+      "numero_maquinas": 5,
+      "cargas_horas": [
+        17.0,
+        10.333333333333332,
+        27.0,
+        22.0,
+        7.0
+      ],
+      "makespan_horas": 27.0,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        }
+      ]
+    },
+    {
+      "simulacion": 8,
+      "semilla": 102199765307343347,
+      "numero_trabajos": 25,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        9.0,
+        34.666666666666664,
+        15.333333333333334
+      ],
+      "makespan_horas": 34.666666666666664,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        }
+      ]
+    },
+    {
+      "simulacion": 9,
+      "semilla": 10059306816192293334,
+      "numero_trabajos": 30,
+      "numero_maquinas": 5,
+      "cargas_horas": [
+        9.666666666666668,
+        13.333333333333334,
+        13.666666666666666,
+        6.666666666666667,
+        8.333333333333332
+      ],
+      "makespan_horas": 13.666666666666666,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 28,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 29,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 30,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        }
+      ]
+    },
+    {
+      "simulacion": 10,
+      "semilla": 8120363593998304351,
+      "numero_trabajos": 21,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        26.666666666666668,
+        13.333333333333332,
+        15.333333333333332
+      ],
+      "makespan_horas": 26.666666666666668,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        }
+      ]
+    },
+    {
+      "simulacion": 11,
+      "semilla": 17584412521443241569,
+      "numero_trabajos": 24,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        25.333333333333332,
+        13.0,
+        21.666666666666668
+      ],
+      "makespan_horas": 25.333333333333332,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        }
+      ]
+    },
+    {
+      "simulacion": 12,
+      "semilla": 10267895130786037199,
+      "numero_trabajos": 22,
+      "numero_maquinas": 4,
+      "cargas_horas": [
+        7.333333333333333,
+        8.333333333333334,
+        20.333333333333332,
+        11.0
+      ],
+      "makespan_horas": 20.333333333333332,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        }
+      ]
+    },
+    {
+      "simulacion": 13,
+      "semilla": 1423338844557222002,
+      "numero_trabajos": 28,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        31.0,
+        33.0,
+        28.666666666666664
+      ],
+      "makespan_horas": 33.0,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 28,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        }
+      ]
+    },
+    {
+      "simulacion": 14,
+      "semilla": 7101195809675138589,
+      "numero_trabajos": 20,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        23.0,
+        18.0,
+        5.333333333333333
+      ],
+      "makespan_horas": 23.0,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        }
+      ]
+    },
+    {
+      "simulacion": 15,
+      "semilla": 4675779066527779381,
+      "numero_trabajos": 20,
+      "numero_maquinas": 3,
+      "cargas_horas": [
+        11.0,
+        22.333333333333336,
+        15.0
+      ],
+      "makespan_horas": 22.333333333333336,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        }
+      ]
+    },
+    {
+      "simulacion": 16,
+      "semilla": 8331480293090185441,
+      "numero_trabajos": 27,
+      "numero_maquinas": 4,
+      "cargas_horas": [
+        15.0,
+        11.333333333333332,
+        23.0,
+        22.666666666666664
+      ],
+      "makespan_horas": 23.0,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        }
+      ]
+    },
+    {
+      "simulacion": 17,
+      "semilla": 3447000246554432441,
+      "numero_trabajos": 26,
+      "numero_maquinas": 4,
+      "cargas_horas": [
+        5.333333333333333,
+        37.33333333333333,
+        14.0,
+        15.666666666666666
+      ],
+      "makespan_horas": 37.33333333333333,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            15,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        }
+      ]
+    },
+    {
+      "simulacion": 18,
+      "semilla": 16905255238887860579,
+      "numero_trabajos": 21,
+      "numero_maquinas": 5,
+      "cargas_horas": [
+        24.0,
+        2.0,
+        10.666666666666666,
+        4.666666666666666,
+        12.0
+      ],
+      "makespan_horas": 24.0,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            15,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            10,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        }
+      ]
+    },
+    {
+      "simulacion": 19,
+      "semilla": 6259135331050246046,
+      "numero_trabajos": 25,
+      "numero_maquinas": 5,
+      "cargas_horas": [
+        10.666666666666666,
+        25.333333333333332,
+        9.666666666666666,
+        6.666666666666666,
+        8.0
+      ],
+      "makespan_horas": 25.333333333333332,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            5,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 20,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 20,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 10,
+          "maquina": 5,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            15,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        }
+      ]
+    },
+    {
+      "simulacion": 20,
+      "semilla": 15653284455278191313,
+      "numero_trabajos": 28,
+      "numero_maquinas": 4,
+      "cargas_horas": [
+        10.666666666666664,
+        18.0,
+        20.333333333333332,
+        10.0
+      ],
+      "makespan_horas": 20.333333333333332,
+      "trabajos": [
+        {
+          "id_trabajo": 1,
+          "unidades": 10,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 2,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 3,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 4,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 5,
+          "unidades": 20,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 6,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 7,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 5,
+          "duracion_horas": 6.0
+        },
+        {
+          "id_trabajo": 8,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        },
+        {
+          "id_trabajo": 9,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 10,
+          "unidades": 30,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 11,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            5,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 12,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 13,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 14,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            15
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 15,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            5,
+            10
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 16,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            5,
+            10,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 10,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 17,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            5
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 18,
+          "unidades": 20,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            5,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 19,
+          "unidades": 30,
+          "maquina": 2,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            10,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 10,
+          "duracion_horas": 3.0
+        },
+        {
+          "id_trabajo": 20,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 21,
+          "unidades": 30,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            10,
+            10,
+            15,
+            10
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 22,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            10
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 5,
+          "duracion_horas": 4.0
+        },
+        {
+          "id_trabajo": 23,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            10,
+            5,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 24,
+          "unidades": 30,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            15,
+            5,
+            15
+          ],
+          "id_producto": "P30",
+          "velocidad_asignada": 15,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 25,
+          "unidades": 10,
+          "maquina": 4,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 5,
+          "duracion_horas": 2.0
+        },
+        {
+          "id_trabajo": 26,
+          "unidades": 10,
+          "maquina": 1,
+          "velocidades_por_maquina": [
+            15,
+            15,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 15,
+          "duracion_horas": 0.6666666666666666
+        },
+        {
+          "id_trabajo": 27,
+          "unidades": 20,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            5,
+            15,
+            15
+          ],
+          "id_producto": "P20",
+          "velocidad_asignada": 15,
+          "duracion_horas": 1.3333333333333333
+        },
+        {
+          "id_trabajo": 28,
+          "unidades": 10,
+          "maquina": 3,
+          "velocidades_por_maquina": [
+            5,
+            10,
+            10,
+            5
+          ],
+          "id_producto": "P10",
+          "velocidad_asignada": 10,
+          "duracion_horas": 1.0
+        }
+      ]
+    }
+  ]
+}
